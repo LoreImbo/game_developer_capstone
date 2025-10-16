@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(BoxCollider2D))]
+//[RequireComponent(typeof(BoxCollider2D))]
 public class PlayerMovementGrid : MonoBehaviour
 {
     public float moveSpeed = 5f; // velocità di scatto

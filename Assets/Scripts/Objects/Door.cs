@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    private bool isOpen = false;
+    public bool isOpen = false;
     private Collider2D col;
     private SpriteRenderer sr;
 
