@@ -11,7 +11,7 @@ TagManager:
   - Obstacle
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3864945171
+    locked: 0
+  - name: Objects
+    uniqueID: 2785931825
+    locked: 0
+  - name: Characters
+    uniqueID: 1220043545
     locked: 0
