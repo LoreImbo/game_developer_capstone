@@ -15,7 +15,8 @@ public class Door : MonoBehaviour
     public void SetOpen(bool open)
     {
         isOpen = open;
-        col.enabled = !isOpen;
-        sr.color = isOpen ? Color.gray : Color.white; // feedback visivo
+        if (col != null) col.enabled = !isOpen;   // se aperta, disabilita collider per permettere il passaggio
+        if (sr != null) sr.color = isOpen ? new Color(1f,1f,1f,0.6f) : Color.white;
+        Debug.Log("Door SetOpen: " + isOpen);
     }
 }

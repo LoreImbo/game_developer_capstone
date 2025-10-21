@@ -15,4 +15,10 @@ public class Lever : MonoBehaviour, IInteractable
             connectedDoor.SetOpen(isOn);
         }
     }
+    public void ResetLever()
+    {
+        isOn = false;
+        if (connectedDoor != null)
+            connectedDoor.SetOpen(false);
+    }
 }
